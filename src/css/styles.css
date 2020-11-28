@@ -11,6 +11,36 @@
 
 /*-----------------------*/
 /* HEADER STYLES*/
+    #img {
+        width: 1340px;
+        height: 400px;
+    }
+    .menu {
+    padding: 0;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 400px;
+    }
+    
+    .menu li {
+    display: inline;
+    }
+
+    .menu li a {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        text-decoration: none;
+        float: left;
+        padding: 20px;
+        background-color: #2175bc;
+        color: #fff;
+        }
+
+    .menu li a:hover {
+            background-color: #2586d7;
+            margin-top: -2;
+            padding-bottom: 12px;]
+            }
 /* HEADER STYLES*/
 /*-----------------------*/
 

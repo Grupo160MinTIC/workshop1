@@ -21,6 +21,52 @@
 
 /*-----------------------*/
 /* NEWS STYLES*/
+.news_container
+{
+    margin: auto;
+    width: 50%;
+
+}
+
+    .news_row
+    {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+        .news_element
+        {
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 15px;
+        }
+            .news_image
+            {
+                width: auto;
+            }
+
+            .news_title
+            {
+                width: auto;
+            }
+
+            .news_text
+            {
+                width: auto;
+            }
+
+            .news_link
+            {
+                width: auto;
+                text-decoration: none;
+                font-weight: bold;
+                color: #2175BD;
+            }
+
 /* NEWS STYLES*/
 /*-----------------------*/
 

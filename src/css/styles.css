@@ -1,16 +1,80 @@
 /*-----------------------*/
 /* GLOBAL STYLES*/
-    *
-    {
-        width: 1200px;
-        font-family: 'Courier New', Courier, monospace;
-    }
+   /* GLOBAL STYLES*/
+   *
+   {
+       width: 1200px;
+       font-family: 'Courier New', Courier, monospace;
+       margin: auto;
+       padding: 0;
+   }
 
+   .main_container
+   {
+       width: 70%;
+       margin: auto;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+   }
+
+/* GLOBAL STYLES*/
 /* GLOBAL STYLES*/
 /*-----------------------*/
 
 /*-----------------------*/
 /* HEADER STYLES*/
+.header_container 
+{
+    width: 1200px;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+    .header_image
+    {
+        height: 400px;
+        width: 1200px;
+        margin: 0;
+        padding: 0 0 0;
+    }
+
+    .nav_container 
+    {   
+        position: relative;
+        width: 50%;
+        margin-top: -50px;
+        padding: 25px;
+        background: #E7F4F7;
+        text-decoration: none;
+    }
+
+        .nav_list
+        {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            
+        }
+
+            .nav_list_element
+            {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                text-align: center;          
+            }
+            .nav_list_element > a
+            {
+                text-align: center; 
+                text-decoration: none;   
+                font-family: Helvetica, Arial, sans-serif;
+                color: black;     
+            }
 /* HEADER STYLES*/
 /*-----------------------*/
 
@@ -31,5 +95,33 @@
 
 /*-----------------------*/
 /* FOOTER STYLES*/
+.footer{
+  margin: 20px 0 0 0;
+  width: 100%;
+  background-color: #E7F4F7;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.left{
+    width: 50%;
+    text-align: center;
+  }
+    .enlace {
+    text-decoration: none;
+    }
+
+    .im {
+        width: 30px;
+        width: 30px;
+    }
+.right{
+    width: 50%;
+    text-align: justify;
+    }
+
 /* FOOTER STYLES*/
 /*-----------------------*/

@@ -21,7 +21,10 @@
 /* GLOBAL STYLES*/
 /* GLOBAL STYLES*/
 /*-----------------------*/
-
+.main_container{
+    margin: auto;
+    width:70%;
+}
 /*-----------------------*/
 /* HEADER STYLES*/
 .header_container 
@@ -78,8 +81,35 @@
 /* HEADER STYLES*/
 /*-----------------------*/
 
+    .servicios{
+        width:100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+        .serv{
+            display: flex;
+            flex-direction:column;
+            justify-content: space-evenly;
+            text-align: center;
+            align-content: space-between;
+        }
+            .tit{
+                width: auto;
+            }    
+            .imgserv{
+                width:200px;
+                height: 150px;
+                margin: auto;
+                align-items: baseline;
+            }
+            .txt{
+                width: auto;
+            }
+
 /*-----------------------*/
 /* SERVICES STYLES*/
+
 /* SERVICES STYLES*/
 /*-----------------------*/
 
